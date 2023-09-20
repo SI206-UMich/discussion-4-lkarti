@@ -58,7 +58,7 @@ def verify_input(self):
         return True
     else:
         return False
-    
+ #this function calculates the area of the rectangle   
 def area(self):
     if not self.verify_input():
         return "Invalid Input"
