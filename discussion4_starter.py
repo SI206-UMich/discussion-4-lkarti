@@ -44,6 +44,32 @@ class Rectangle():
 
     # YOUR CODE HERE
     
+def__init__(self, width, height):
+    self.width = width
+    self.height = height 
+
+#Done 
+
+def __str__(self): 
+    return "A rectangle with width ___ and height ___"
+
+def verify_input(self):
+    if self.width > 0 and self.height > 0:
+        return True
+    else:
+        return False
+    
+def area(self):
+    if not self.verify_input():
+        return "Invalid Input"
+    else:
+        return self.width * self.height
+    
+def perimeter(self):
+    if not self.verify_input:
+        return "Invalid Input"
+    else:
+        return (2 * self.width) + (2 * self.height)
 
 
 def main():
