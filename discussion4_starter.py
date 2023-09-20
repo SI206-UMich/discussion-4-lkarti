@@ -53,6 +53,7 @@ def__init__(self, width, height):
 def __str__(self): 
     return "A rectangle with width ___ and height ___"
 
+#this fucntion verifies the input 
 def verify_input(self):
     if self.width > 0 and self.height > 0:
         return True
